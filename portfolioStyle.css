@@ -290,6 +290,12 @@ video {
     grid-gap: 20px;
     margin-top: 30px;
   }
+
+  .dropdown-content .dropdown-content {
+    top: 100%;      /* Drop below instead of to the side */
+    left: 0;        /* Align with the parent */
+    margin-left: 0; /* Remove left spacing */
+  }
 }
 
 .contact-form {
