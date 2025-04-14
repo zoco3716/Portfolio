@@ -100,9 +100,10 @@ h3 {
   font-weight: 400;
 }
 
-p1 {
+.p1 {
   font-style: italic;
   text-align: center;
+  font-size: 16px;
 }
 
 p2 {
@@ -407,4 +408,8 @@ video {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.iframe{
+  align-items: center;
 }
