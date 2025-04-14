@@ -141,6 +141,8 @@ p2 {
   z-index: 1;
   border-radius: 10px;
   font-weight: 300;
+  top: 100%;
+  left: 0;
 }
 
 .dropdown-content a, .dropdown-content .dropdown-btn {
@@ -270,6 +272,7 @@ video {
     display: flex;
     flex-direction: column; 
     text-align: center;
+    align-items: center;
     margin-left: 30vw;
     margin-right: 30vw;
     width: 40vw;
@@ -279,6 +282,13 @@ video {
     display: block;
     padding: 10px;
     width: 30vw;
+  }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin-top: 30px;
   }
 }
 
