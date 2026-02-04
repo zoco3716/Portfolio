@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "petala-pro", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: #fffefb;
@@ -55,9 +55,9 @@ nav a {
   margin-top: 0;
   margin-bottom: 0;
   text-decoration: none;
-  font-family: "petala-pro", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-style: normal;
+  font-style: bold;
   position: sticky;
 }
 
@@ -76,9 +76,9 @@ h1 {
   font-size: 50px;
   padding: 0;
   margin: 0;
-  font-family: "petala-pro", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-style: normal;
+  font-style: bold;
   line-height: 50px;
   margin-bottom: 20px;
 }
@@ -121,7 +121,7 @@ p2 {
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
-  font-family: "petala-pro", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   
