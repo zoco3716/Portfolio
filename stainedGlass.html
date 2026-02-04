@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Craftsman Stained Glass</title>
+  <link href="https://fonts.googleapis.com/css2?family=Futura:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolioStyle.css">
+  <style>
+    .image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px;
+  justify-content: center;
+  align-items: start; /* let rows grow to fit image height */
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;      /* don’t force a height */
+  object-fit: contain; /* make sure entire image is shown */
+  display: block;    /* remove inline spacing quirks */
+}
+
+    </style>    
+</head>
+<body>
+
+  <header>
+    <img src = "portfolioAssets/header4.png" alt = "zoe cooper" class = headerImage>
+  </header>
+
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT ME</a>
+    
+    <div class="dropdown">
+      <a href="#" class="dropdown-btn">PROJECTS</a>
+      <div class="dropdown-content">
+        
+        <div class="dropdown">
+          <a href="#" class="dropdown-btn">MUSIC</a>
+          <div class="dropdown-content">
+            <a href="man-made_vertigo.html">man-made vertigo</a>
+            <a href="when_spirits_sing.html">when spirits sing</a>
+            <!-- <a href="project3.html">Project 3</a> -->
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#" class="dropdown-btn">GRAPHIC DESIGN</a>
+          <div class="dropdown-content">
+            <a href="Tombow_Poster.html">Tombow MONO Poster</a>
+            <a href="mmv_Lyric_Book.html">man-made vertigo Lyric Book</a>
+            <!-- <a href="project6.html">Design 3</a> -->
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#" class="dropdown-btn">FINE ART</a>
+          <div class="dropdown-content">
+            <a href="Charleston_Series.html">Charleston Sketches</a>
+            <a href="Grandma's_Piano.html">Grandma's Piano: A Miniature Replica</a>
+            <!--<a href="project6.html">Design 3</a> -->
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#" class="dropdown-btn">OTHER</a>
+          <div class="dropdown-content">
+            <!-- <a href="project7.html">Project A</a>
+            <a href="project8.html">Project B</a>
+            <a href="project9.html">Project C</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="contact.html">CONTACT</a>
+  </nav>
+
+  <h2>FINE ART</h2>
+<h1>Craftsman Stained Glass</h1>
+
+    <div class="image-grid">
+        <img src="portfolioAssets/stainedGlass/stainedGlass2.jpg" alt="">
+        <img src="portfolioAssets/stainedGlass/stainedGlass4.jpg" alt="">
+        <img src="portfolioAssets/stainedGlass/stainedGlass6.jpg" alt="">
+        <img src="portfolioAssets/stainedGlass/stainedGlass8.jpg" alt="">
+    </div>
+          
+
+    </div>
+
+  </div>
+
+  <footer>
+  </footer>
+
+</body>
+</html>
